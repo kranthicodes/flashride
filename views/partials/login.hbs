@@ -1,0 +1,57 @@
+<!--================================= LOGIN FORM START =============================================-->
+<section class=" container-fluid subscription-bgimage bgimage-property section-space white-text">
+    <div class="container">
+        <div class="col-md-10 column-center no-padding div-bg top-margin">
+            <h2 class="center bgimage-head bgimage-head-bottom heading-welcome">Welcome Back</h2>
+            <div class="col-md-8 column-center no-padding">
+                <p class="center email-text-bottom ls">Login in to experience the Speed</p>
+            </div>
+            <div id="mc_embed_signup">
+                <div class="col-md-5 col-sm-6 col-xs-8 column-center no-padding">
+                    <div class="form-top">
+                        <!--================= YOUR MAILCHIMP ACCOUNT URL HERE ====================-->
+                        <form class="loginform" method="#" id="login-form" action="#">
+                            <!--================= EMAIL INPUT BOX HERE ====================-->
+                            <div class="clearfix">
+                                <label class="label-style" for="email"><b>Email Address</b></label>
+                                <input class="form-control place_error shadow" id="login-email" type="email"
+                                    name="email" placeholder="Your Mail" required />
+                            </div>
+                            <div class="clearfix">
+                                <label class="label-style" for="email"><b>Password</b></label>
+                                <input class="form-control place_error shadow" id="login-password" type="password"
+                                    name="password" style="" placeholder="Your Password" required />
+                            </div>
+                            <!--================= SIGN IN BUTTON HERE ====================-->
+                            <div class="center btn-login">
+                                <input type="submit" id="mc-embedded-subscribe" class="btn-1 btn-ant shadow"
+                                    value="SIGN IN">
+                            </div>
+                            {{!-- <p class="center email-text-bottom ls">or log in with </p>
+                            <div class="center">
+                                <button class="btn btn-1 button-border shadow"
+                                    style="margin-right: 10px; border-radius: 50%; height: 50px"><i
+                                        class="fab fa-google" aria-hidden="true"></i></button>
+                                <button class="btn btn-1 button-border shadow"
+                                    style="border-radius: 50%; height: 50px"><i
+                                        class="fab fa-facebook-square"></i></button>
+                            </div> --}}
+                            <!--================= SUCCESS AND FAILURE MESSAGE HERE =================-->
+                            <div class="center indicator-top" id="ResultMsg"><span id="SuccessMsg"
+                                    class="email-success"></span><span id="FailureMsg" class="email-failure"></span>
+                            </div>
+
+                            <div id="mce-responses">
+                                <div class="response response-msg" id="mce-error-response"></div>
+                                <div class="response response-msg" id="mce-success-response"></div>
+                            </div>
+                        </form>
+                        <p class="center signup-bottom ls">Don't have an account? <a style="color: #1bbc9b;"
+                                href="/signup">Sign up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================================= LOGIN FORM END =============================================-->
