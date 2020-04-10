@@ -1,5 +1,5 @@
 {
-  "name": "eagle-fuzzy-octo-journey",
+  "name": "flashride",
   "version": "1.0.0",
   "description": "Prject-1",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/attainu/eagle-fuzzy-octo-journey.git"
+    "url": "git+https://github.com/sai-kranthi-au4/flashride"
   },
   "keywords": [],
   "author": "prjoect-1 team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/attainu/eagle-fuzzy-octo-journey/issues"
+    "url": "https://github.com/sai-kranthi-au4/flashride/issues"
   },
-  "homepage": "https://github.com/attainu/eagle-fuzzy-octo-journey#readme",
+  "homepage": "https://github.com/sai-kranthi-au4/flashride#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "connect-mongo": "^3.2.0",
